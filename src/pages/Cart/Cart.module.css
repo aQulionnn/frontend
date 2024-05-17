@@ -1,0 +1,54 @@
+.container {
+  display: grid;
+  gap: 50px;
+}
+
+.content {
+  justify-self: center;
+  width: 80vw;
+  display: grid;
+  gap: 20px;
+  padding: 15px;
+}
+
+.cart-header {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  display: flex; 
+  justify-content: space-between;
+  padding: 10px 10px 10px 0;
+  border-bottom: 1.5px solid #6c757d;
+  width: 80vw;
+}
+
+.cart {
+  width: 80vw;
+  display: grid;
+  gap: 25px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.image, .image img {
+  width: 100px;
+  height: 100px;
+}
+
+.total-sum {
+  margin-left: 80%;
+  display: flex;
+}
+
+.total-sum p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.total-sum span {
+  margin-left: 75px;
+  font-size: 18px;
+}

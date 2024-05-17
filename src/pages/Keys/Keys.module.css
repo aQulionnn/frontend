@@ -1,0 +1,14 @@
+.container {
+  display: grid;
+  gap: 50px;
+}
+
+.content {
+  justify-self: center;
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 15px;
+}
+

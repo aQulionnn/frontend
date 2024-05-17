@@ -1,0 +1,34 @@
+.form {
+  width: 300px;
+  display: grid;
+  gap: 10px;
+  justify-items: center;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #adb5bd;
+  border-radius: 5px;
+  outline-color: #ff4d6d;
+}
+
+.form input[type='file'] {
+  border: none;
+  padding: 5px;
+}
+
+.form button {
+  width: 150px;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff4d6d;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.form button:hover {
+  background-color: #CFF88D;
+}
